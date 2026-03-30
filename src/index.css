@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+}
+
+@layer base {
+	:root {
+		--primary: black;
+		--secondary: white;
+	}
+	.theme-red {
+		--primary: white;
+		--secondary: rgb(248, 128, 128);
+	}
+
+	.theme-green {
+		--primary: white;
+		--secondary: rgb(105, 215, 105);
+	}
+
+	.theme-blue {
+		--primary: white;
+		--secondary: rgb(139, 205, 252);
+	}
+
+	.theme-yellow {
+		--primary: white;
+		--secondary: rgb(253, 218, 93);
+	}
+}
